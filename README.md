@@ -60,7 +60,7 @@ Given these details, the total latency, T, introduced by the current implementat
 
 For example, if there are 5 outcomes (N = 5), the total latency is:
 
-### T = 0.3 + 0.2 x 0.5 = 1.3 seconds
+### T = 0.3 + 0.2 x 5 = 1.3 seconds
 
 However, this is a suboptimal implementation. We can optimize it by taking advantage of the asynchronous nature of Node.js. 
 
